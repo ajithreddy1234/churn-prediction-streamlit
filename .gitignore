@@ -1,0 +1,10 @@
+# Ignore virtual environment
+.venv/
+__pycache__/
+*.pyc
+
+# PyCharm settings
+.idea/
+
+# OS junk
+.DS_Store
