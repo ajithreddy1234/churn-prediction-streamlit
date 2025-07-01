@@ -59,3 +59,4 @@ if st.button("Predict"):
     prediction = model.predict(input_df)[0]
     result = "Churn" if prediction == 1 else "Not Churn"
     st.success(f"Prediction: {result}")
+
