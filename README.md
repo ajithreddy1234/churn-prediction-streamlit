@@ -65,5 +65,8 @@ The trained model was integrated into a user-friendly Streamlit web application,
 | XGBoost           | 0.96     | 0.77          | 1.00       | 0.87         | 1.00           | 0.95       | 0.98         |
 | Gradient Boosting | 0.94     | 0.70          | 1.00       | 0.82         | 1.00           | 0.94       | 0.97         |
 
+ **Note:**  
+All model evaluation metrics, visualizations, and comparison results are thoroughly documented in the Jupyter notebook **`churn_data_cleaning_modeling.ipynb`**. This includes detailed preprocessing steps, model training, performance reports, and rationale for model selection.
+
 
 
