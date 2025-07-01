@@ -53,6 +53,17 @@ The trained model was integrated into a user-friendly Streamlit web application,
 - `scaler.pkl` – Scaler used during preprocessing
 - `techsupport_encoder.pkl` – Label encoder for the `TechSupport` feature
 - `expected_columns.pkl` – Column ordering used for model input
+##  Model Performance Comparison
+
+| Model            | Accuracy | Precision (0) | Recall (0) | F1-Score (0) | Precision (1) | Recall (1) | F1-Score (1) |
+|------------------|----------|---------------|------------|--------------|----------------|------------|--------------|
+| Logistic Regression | 0.86     | 0.48          | 0.97       | 0.64         | 0.99           | 0.84       | 0.91         |
+| K-Nearest Neighbors| 0.84     | 0.41          | 0.58       | 0.48         | 0.93           | 0.88       | 0.90         |
+| Support Vector Machine | 0.88  | 0.54          | 0.58       | 0.56         | 0.93           | 0.93       | 0.93         |
+| Decision Tree     | 0.96     | 0.77          | 1.00       | 0.87         | 1.00           | 0.95       | 0.98         |
+| Random Forest     | 0.96     | 0.75          | 1.00       | 0.86         | 1.00           | 0.95       | 0.97         |
+| XGBoost           | 0.96     | 0.77          | 1.00       | 0.87         | 1.00           | 0.95       | 0.98         |
+| Gradient Boosting | 0.94     | 0.70          | 1.00       | 0.82         | 1.00           | 0.94       | 0.97         |
 
 
 
