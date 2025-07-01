@@ -54,7 +54,5 @@ The trained model was integrated into a user-friendly Streamlit web application,
 - `techsupport_encoder.pkl` – Label encoder for the `TechSupport` feature
 - `expected_columns.pkl` – Column ordering used for model input
 
----
 
-## Project Structure
 
